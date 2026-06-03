@@ -5,6 +5,7 @@
     <url>/ootbee/admin/command-console/global/help</url>
     <url>/ootbee/admin/command-console/global/listPlugins</url>
     <family>OOTBee Support Tools</family>
+    <family>AdminConsole</family>
     <format default="json">any</format>
     <negotiate accept="application/json">json</negotiate>
     <authentication>admin</authentication>

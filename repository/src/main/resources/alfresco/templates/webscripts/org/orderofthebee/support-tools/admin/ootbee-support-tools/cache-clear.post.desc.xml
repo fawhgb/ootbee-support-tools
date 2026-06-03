@@ -4,6 +4,7 @@
     <description>Clear contents of a cache</description>
     <url>/ootbee/admin/caches/{cache}/clear</url>
     <family>OOTBee Support Tools</family>
+    <family>AdminConsole</family>
     <format default="json" />
     <authentication>admin</authentication>
     <lifecycle>internal</lifecycle>

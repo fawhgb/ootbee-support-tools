@@ -7,4 +7,5 @@
     <lifecycle>internal</lifecycle>
     <transaction>none</transaction>
     <family>OOTBee Support Tools</family>
+    <family>AdminConsole</family>
 </webscript>

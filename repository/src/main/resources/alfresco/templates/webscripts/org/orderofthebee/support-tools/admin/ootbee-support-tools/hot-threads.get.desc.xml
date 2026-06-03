@@ -5,6 +5,7 @@
     <url>/ootbee/admin/hot-threads</url>
     <family>AdminConsole</family>
     <family>OOTBee Support Tools</family>
+    <family>AdminConsole</family>
     <format default="html"/>
     <authentication>admin</authentication>
     <lifecycle>internal</lifecycle>

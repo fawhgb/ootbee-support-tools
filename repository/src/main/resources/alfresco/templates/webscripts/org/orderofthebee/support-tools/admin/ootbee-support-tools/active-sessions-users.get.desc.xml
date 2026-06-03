@@ -8,4 +8,5 @@
     <lifecycle>internal</lifecycle>
     <transaction allow="readonly">required</transaction>
     <family>OOTBee Support Tools</family>
+    <family>AdminConsole</family>
 </webscript>
