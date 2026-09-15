@@ -99,8 +99,6 @@
         <maven.deploy.version>3.1.4</maven.deploy.version>
         <maven.exec.version>3.5.1</maven.exec.version>
 
-        <!-- we use the Sonatype plugin for deploy -->
-        <maven.deploy.skip>true</maven.deploy.skip>
 
         <maven.sonatype.version>0.9.0</maven.sonatype.version>
 
@@ -668,17 +666,6 @@
                     <extensions>true</extensions>
                 </plugin>
 
-                <plugin>
-                    <groupId>org.sonatype.central</groupId>
-                    <artifactId>central-publishing-maven-plugin</artifactId>
-                    <version>${maven.sonatype.version}</version>
-                    <extensions>true</extensions>
-                    <configuration>
-                        <deploymentName>central.sonatype.com</deploymentName>
-                        <autoPublish>true</autoPublish>
-                        <waitUntil>published</waitUntil>
-                    </configuration>
-                </plugin>
 
                 <!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself. -->
                 <plugin>
